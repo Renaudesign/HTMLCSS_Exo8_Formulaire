@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<link href="001.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8"/>
+<title>HTML / CSS - Exercice 8 </title>
+</head>
+<body>
+  <form title="payout" id="payoutForm" action="/action_page.php">
+    <fieldset id="identityDiv" class="formFieldSet">
+      <legend class="formTitles" id="identityTitle">Votre Identité</legend>
+          <ol>
+            <li><label for="fname">Nom : </label><input type="text" id="fname" name="fname" value="Nom"></li>
+            <li><label for="lname">Prénom : </label><input type="text" id="lname" name="lname" value="Prénom"></li>
+            <li><label for="email">Adresse mail : </label><input type="text" id="lname" name="lname" value="Prénom"></li>
+          </ol>
+    </fieldset>
+  <fieldset id="deliveryDiv" class="formFieldSet">
+    <legend class="formTitles" id="deliveryTitle">Adresse de livraison</legend> 
+    <ol>
+      <li><label for="adress">Adresse : </label><textarea type="text" id="adress" name="adress"></textarea></li>
+      <li><label for="postalCode">Code Postal : </label><input type="text" id="postalCode" name="postalCode" value="Code Postal"></li>
+      <li><label for="city">Ville  : </label><input type="text" id="city" name="city" value="Ville"></li>
+    </ol>
+</fieldset>
+<fieldset id="payDiv" class="formFieldSet">
+<legend class="formTitles" id="payTitle">Informations de réglement</legend>
+  <ol>
+    <li><label for="cardType">Type de carte bancaire : </label><br />
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">VISA</label><br />
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Mastercard</label><br />
+    </li>
+    <li><label for="cardNumber">Numéro de carte : </label><input type="text" id="cardNumber" name="cardNumber" value="Numéro de carte"></li>
+    <li><label for="securityCode">Code de sécurité : </label><input type="text" id="securityCode" name="securityCode" value="Code de sécurité"></li>
+    <li><label for="cardOwner">Nom du titulaire : </label><input type="text" id="cardOwner" name="cardOwner" value="Nom du titulaire"></li>
+  </ol>
+</fieldset>
+<input type="submit" value="J'achète!" id="submitButton">
+</form>
+</body>
+</html>

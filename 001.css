@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(194, 194, 194);
+}
+input{
+    font-family: arial, sans-serif;
+    color: #929292;
+}
+.formFieldSet{
+    width: 80%;
+    height: auto;
+    margin-bottom: 5px;
+}
+.formTitles{
+    margin-left: 10px;
+    padding: 2px 5px 0px 5px;
+}
+#submitButton{
+    color: #000000;
+}
+#identityDiv{
+    background-color: #2574A9;
+}
+#deliveryDiv{
+    background-color: #9A12B3;
+}
+#payDiv{
+    background-color: #DB0A5B;
+}
+#identityTitle{
+    background-color: #2574A9;
+}
+#deliveryTitle{
+    background-color: #9A12B3;
+}
+#payTitle{
+    background-color: #DB0A5B;
+}
+
